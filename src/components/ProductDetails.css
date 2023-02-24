@@ -1,0 +1,62 @@
+.btn-box{
+    position: relative;
+}
+
+.back-btn{
+    position: absolute;
+    left: 71px;
+    width: 10%;
+    height: 30px;
+    top: -59px;
+    
+}
+
+.outer-box{
+    display: flex;
+    margin-top: 95px;
+    width: 100%;
+}
+
+.img-box{
+    width: 40%;
+    margin-left: 43px;
+}
+
+.detail-box{
+    width: 23%;
+    text-align: start;
+    margin-left: 35px;
+    margin-top: 23px;
+}
+.cart-box{
+    margin-top: 23px;
+    width: 30%;
+    margin-left: 50px;
+}
+
+.add-cart{
+    border: 1px solid grey;
+    margin: 10px 19px 11px 19px;
+    height: 50px;
+    background-color: black;
+    border-radius: 4px;
+}
+
+
+.cart-btn{
+    font-size: medium;
+    color: white;
+    margin-top: 15px;
+}
+
+.cart{
+    border: 1px solid grey;
+    height: 34px;
+    padding-top: 11px;
+}
+
+.cart-inner-box{
+    border: 1px solid grey;
+    width: 70%;
+    margin-left: 19px;
+}
