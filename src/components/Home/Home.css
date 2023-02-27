@@ -4,7 +4,13 @@
     padding: 0;
 }
 
+.upper-nav{
+    background-color: black;
+}
+
 nav {
+    height: 52px;
+    padding-top: 10px;
     box-shadow: 3px 7px 11px #8080802e;
 }
 
@@ -16,12 +22,11 @@ nav ul {
 }
 
 .nav-img {
-    /* position: absolute; */
-    /* top: 30px; */
     margin-right: -13px;
     margin-top: -10px !important;
-    width: 121px;
-    height: 84px;
+    width: 82px;
+    height: 80px;
+    border-radius: 80px;
 }
 
 nav ul li.logo {
@@ -58,7 +63,31 @@ nav ul div.items a {
 }
 
 .search-icon {
-    margin-right: 53px;
+    margin-right: -109px;
+}
+
+.offer-outer-box{
+    position: fixed;
+    bottom: 104px;
+    width: 33px;
+    height: 322px;
+    background-color: #171d2e;
+    z-index: 6;
+    color: #fff;
+}
+
+.offer-inner-box{
+    margin: 12px 2px;
+    border-top: 21px solid transparent;
+    border-bottom: 18px solid transparent;
+}
+
+.offer-text{
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    height: 285px;
+    color: #fcfcfc;
+    display: inline-block;
 }
 
 .card-box {
@@ -67,17 +96,17 @@ nav ul div.items a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 80px;
-    /* margin-left: 100px; */
-    margin: 50px;
+    margin: 80px;
 }
 
 
 .card {
-    border: 1px solid peachpuff;
+    border: 1px solid rgb(250, 248, 248);
     border-radius: 8px;
     max-width: 100%;
     height: 330px;
-    background: linear-gradient(250deg, #ffa50042 40%, pink, #ffbc00b3);
+    /* background: linear-gradient(250deg, #2a243e24 40%, #ffc0cb36, #ffbc0047); */
+    background: linear-gradient(26deg, #2a243e24 40%, #b3a0a31f, #1000ff47);
 }
 
 img {
@@ -85,27 +114,13 @@ img {
     height: 90%;
     margin-top: 24px;
 }
-
-.img-card {
-    /* padding: 4px; */
-    /* border-radius: 4px; */
-    /* border: 1px solid black; */
-    height: 70%;
+.card:hover{
+    transition: transform 250ms linear;
 }
 
-/* .brand-name {
-    position: absolute;
-    top: -265px;
-    left: -24px;
-    border: 1px solid white;
-    color: black;
-    background-color: yellow;
-    width: 75px;
-    height: 49px;
-    text-align: center;
-    border-radius: 107px;
-    padding-top: 25px;
-} */
+.img-card {
+    height: 70%;
+}
 
 .brand-box {
     position: relative;
@@ -125,9 +140,14 @@ img {
 }
 
 button {
-    background-color: transparent;
+    width: 90px;
+    cursor: pointer;
+    background-color:#171d2e;
+    color: white;
+    padding: 4px;
+    border-radius: 3px;
     border: none;
-    margin-top: 50px;
+    margin-top: 25px;
     font-weight: 700;
 }
 
@@ -148,4 +168,31 @@ button {
 }
 .logo{
     position: relative;
+}
+
+.star{
+    position: relative;
+}
+
+.icon-style{
+    position: absolute;
+    display: flex;
+    width: 63px;
+    left: 133px;
+    top: 13px;
+    color: rgb(255 255 1);
+    padding: 2px;
+}
+
+.price{
+    position: relative;
+}
+
+.price-p{
+    position: absolute;
+    top: -8px;
+    left: -94px;
+    font-size: medium;
+    font-weight: 700;
+    font-family: fangsong;
 }
